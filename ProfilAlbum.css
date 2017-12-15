@@ -1,0 +1,66 @@
+.container-fluid{
+	background : rgba(33, 150, 243, 0.3);
+	color : #2196f3;
+}
+
+.boutton {
+	border : 2px inset #2196f3;
+	background : white;
+	border-radius : 15px;
+	font-size : 15px;
+	width : 110px;
+}
+
+.boutton2 {
+	border : 2px inset #2196f3;
+	background : white;
+	border-radius : 15px;
+	font-size : 15px;
+	width : 110px;
+	margin-top : -30px;
+}
+
+.boutton:hover {
+	background : rgba(33, 150, 243, 0.3);
+}
+
+.boutton2:hover {
+	background : rgba(33, 150, 243, 0.3);
+}
+
+#marqueur{
+	background : rgba(33, 150, 243, 0.3);
+}
+
+#pp {
+	border : 5px inset #2196f3;
+	margin-top : -75px;
+}
+
+#cadre {
+	border-left : 5px inset #2196f3;
+	border-right : 5px inset #2196f3;
+	border-bottom : 5px inset #2196f3;
+	padding : 20px; 
+}
+
+#commentaire {
+	border : 2px inset #2196f3;
+	border-radius : 15px;
+}
+
+#commentaire:hover {
+	background : rgba(33, 150, 243, 0.3); 
+}
+
+#titre {
+	border : 5px inset #2196f3;
+	padding: 10px;
+	background : rgba(33, 150, 243, 0.3);
+}
+
+#nompseudo {
+	margin-top : -30px;
+	font-size :25px;
+	color : #2196f3;
+}

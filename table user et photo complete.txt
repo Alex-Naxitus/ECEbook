@@ -1,0 +1,34 @@
+﻿
+CREATE TABLE `users` (
+  `Nom` varchar(200) NOT NULL,
+  `Prenom` varchar(200) NOT NULL,
+ 
+ `Email` varchar(200) NOT NULL,
+  `pseudo` varchar(200) NOT NULL,
+  `date` date NOT NULL,
+  
+`sexe` tinyint(1) NOT NULL,
+  `PP` varchar(200) DEFAULT NULL,
+  `PF` varchar(200) DEFAULT NULL
+)
+ ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+
+
+CREATE TABLE `photo` (
+  `ID` int(11) NOT NULL,
+  `image` varchar(200) NOT NULL,
+  `Lieux` varchar(200) DEFAULT NULL,
+
+  `Date` date NOT NULL,
+  `Heure` time NOT NULL,
+  `feeling` varchar(200) DEFAULT NULL,
+  `activite` tinytext,
+ 
+ `accesibilite` tinyint(1) NOT NULL,
+  `legende` tinytext,
+  `Email` varchar(200) NOT NULL
+) ENGINE=InnoDB
+ DEFAULT CHARSET=latin1;
+

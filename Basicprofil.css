@@ -1,0 +1,72 @@
+.container-fluid{
+	background : rgba(33, 150, 243, 0.3);
+	color : #2196f3;
+}
+
+.boutton {
+	border : 2px inset #2196f3;
+	background : white;
+	border-radius : 15px;
+	font-size : 15px;
+	width : 110px;
+}
+
+.boutton2 {
+	border : 2px inset #2196f3;
+	background : white;
+	border-radius : 15px;
+	font-size : 15px;
+	width : 110px;
+	margin-top : -30px;
+}
+
+.boutton:hover {
+	background : rgba(33, 150, 243, 0.3);
+}
+
+.boutton2:hover {
+	background : rgba(33, 150, 243, 0.3);
+}
+
+#cadre{
+	background :  rgba(33, 150, 243, 0.3);
+	border-top : 5px inset #2196f3;
+	border-left : 5px inset #2196f3;
+	border-right : 5px inset #2196f3;
+	border-bottom : 2px inset #2196f3;
+	padding : 20px;
+}
+
+#cadre2{
+	border-left : 5px inset #2196f3;
+	border-right : 5px inset #2196f3;
+	border-bottom : 2px inset #2196f3;
+	padding : 20px;
+}
+
+#cadre3{
+	border-left : 5px inset #2196f3;
+	border-right : 5px inset #2196f3;
+	padding-top : 20px;
+	padding-left : 20px;
+	padding-right : 20px;
+	padding-bottom : 5px; 
+}
+
+#cadre4{
+	border-left : 5px inset #2196f3;
+	border-right : 5px inset #2196f3;
+	border-bottom : 5px inset #2196f3;
+	padding : 20px;
+}
+
+
+#marqueur{
+	background : rgba(33, 150, 243, 0.3);
+}
+
+#pp {
+	border : 5px inset #2196f3;
+	margin-top : -75px;
+}
+

@@ -1,0 +1,8 @@
+CREATE TABLE `posts` (
+  `Email` varchar(200) NOT NULL,
+  `ID` int NOT NULL,
+  `Texte` varchar(5000) NOT NULL,
+	`Humeur` varchar(200) NOT NULL
+
+)
+ ENGINE=InnoDB DEFAULT CHARSET=latin1;
